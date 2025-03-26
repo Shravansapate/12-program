@@ -1,0 +1,33 @@
+h1{color:red;
+     background:url('back.jpg');
+     letter-spacing:30px;
+     border:dashed;
+      font-family:Tempus Sans ITC;
+      text-align:center;
+      font-size:30px;
+
+        
+   }
+h2{color:white;
+     background-color:#45103c;
+     letter-spacing:30px;
+     border:dashed;
+      font-family:Kruti Dev 105;
+      text-align:left;
+      font-size:30px; 
+   }
+p{color:brown;
+     background-color:aqua;
+     letter-spacing:4px;
+     border:solid;
+      font-family:Viner Hand ITC;
+      text-align:center;
+      font-size:15px; 
+                                                               
+
+
+
+
+}
+
+

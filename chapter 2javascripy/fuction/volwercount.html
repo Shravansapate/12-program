@@ -1,0 +1,31 @@
+<html>
+<head>
+<script language ="javascript">
+function volwer()
+{
+ var j,L, s, p,c=0;
+   
+    s=form1.t1.value; 
+    L=s.length;
+    for(j=0 ; j<=L-1; j++)
+        {
+                   p=s.charAt(j);
+           if((p=="a")||(p=="e")||(p=="i")||(p=="o")||(p=="u"))
+             {
+                     c=c+1;
+             }
+         }
+document.write("number of vowels are "+c);
+}
+
+</script>
+</head>
+<body>
+<form name="form1">
+
+enter the string :<input type="text" name="t1" ><br><br>
+<input type="button" value="count volwer"  onclick="volwer()">
+<div name=></div>
+</form>
+</body>
+</html>
